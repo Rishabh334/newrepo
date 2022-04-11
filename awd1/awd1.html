@@ -9,8 +9,17 @@
 </head>
 
 <body>
-    <h1>hsjfskldjkl</h1>
-    <h2>dslkajflkjdsklfjl</h2>
+    <script>
+        t1 = "100 ,1000 or 1?";
+        t2 = /\d{3,}/g;
+        t3 = t1.match(t2);
+        document.write(t3);
+
+        t1 = "hello hi how are you";
+        t2 = /o/.exec(t1);
+        t3 = t1.match(t2);
+        document.write(t3);
+    </script>
 </body>
 
 </html>
